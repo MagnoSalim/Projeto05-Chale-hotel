@@ -1,0 +1,40 @@
+/*Formatação GERAL*/
+* {
+    margin:0;
+    padding:0; 
+}
+
+body {
+    font-family: Helvetica, "Trebuchet MS", Sans-serif;
+    background: #fff url(../img/bg.png);
+    margin: 15px;
+}
+
+#container {
+    border: 1px solid red;
+    background: #ede9cc;
+}
+
+#topo {
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+
+#area-logo {
+    background: url(../img/topo-imagem-principal2.png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left:0;
+}
+#area-menu {
+    background: url(../img/topo-imagem-lateral.png);
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right:0;
+}
